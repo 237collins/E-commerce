@@ -8,8 +8,8 @@ ul li {
 }
 
 .box {
-    width: 250px;
-    height: 280px;
+    width: 225px;
+    height: 350px;
     padding: 0 10px;
 
     text-align: justify;
@@ -17,11 +17,30 @@ ul li {
     border-radius: 10px;
     
 }
-
+img {
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 225px;
+}
 .products p {
-    font-size: .8rem;
+    font-size: 7px;
+    margin-top: 3px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .box h3 {
-    background-color: blueviolet;
+    background-color: rgb(110, 5, 100);
+    color: white;
 }
