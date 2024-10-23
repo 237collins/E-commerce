@@ -2,13 +2,24 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+ul li {
+    list-style-type: none;
+
+}
+
 .box {
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 280px;
+    padding: 0 10px;
+
     text-align: justify;
     border: 2px solid black;
     border-radius: 10px;
     
+}
+
+.products p {
+    font-size: .8rem;
 }
 
 .box h3 {
